@@ -1,0 +1,21 @@
+body {
+  background: #1e1f26;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body svg {
+  overflow: visible;
+}
+body svg #chocolate_box {
+  cursor: pointer;
+}
+body svg #chocolate_box #top {
+  transition: transform 1s ease;
+}
+body svg #chocolate_box:hover #top {
+  transform: translate(40px, -25px) rotate(10deg);
+  transition: transform 1s ease;
+}
